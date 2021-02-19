@@ -55,7 +55,11 @@ const Comment = props => {
               Welcome to the Comment Section, please leave a comment below. 
             </p>
           </h4>
-          <input></input>
+          <input placeholder="name"></input>
+          <input placeholder="email"></input>
+          <input placeholder="text comment"></input>
+          <button>Send</button>
+
           
         </div>
       </div>
