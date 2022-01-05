@@ -19,7 +19,7 @@ import Application from './components/pages/Application';
 import Admin from './components/pages/Admin';
 import Email from './components/pages/Email';
 import Search from './components/pages/Search';
-import HelpDesk from './components/pages/HelpDesk';
+// import HelpDesk from './components/pages/HelpDesk';
 import Calendar from './components/pages/Calendar';
 
 
@@ -63,7 +63,7 @@ const App = () => {
           <PrivateRoute exact path="/admin" component={Admin} />
           <PrivateRoute exact path="/email" component={Email} />
           <PrivateRoute exact path="/calendar" component={Calendar} />
-          <PrivateRoute exact path="/helpDesk" component={HelpDesk} />
+          {/* <PrivateRoute exact path="/helpDesk" component={HelpDesk} /> */}
           
           <PrivateRoute exact path="/search" component={Search} />
           
