@@ -11,6 +11,7 @@ const Register = props => {
   const emailRef = useRef();
   const passwordRef = useRef();
   const password2Ref = useRef();
+  
 
   useEffect(() => {
     if (state.auth.isAuthenticated)

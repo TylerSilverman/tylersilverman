@@ -8,8 +8,9 @@ import reportWebVitals from './reportWebVitals';
 render(
   <StoreProvider>
     <App />
+    
   </StoreProvider>,
   document.getElementById('root'),
 );
 
-reportWebVitals(console.log)
+reportWebVitals(console.log);

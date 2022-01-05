@@ -5,7 +5,7 @@ const Footer = props => {
 
   return (
     <div>
-      <p>&copy; {year} Tyler Silverman- Dashboard</p>
+      <p>&copy; {year} - Tyler Silverman</p>
     </div>
   );
 };
